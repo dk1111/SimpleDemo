@@ -4,6 +4,7 @@
   <apex:pageblockTable value="{!bookList}" var="book">
   <apex:column value="{!book.Name}"/>
   <apex:column value="{!book.Price__c}"/>
+  
   </apex:pageblockTable>
   </apex:pageBlock>
   <h1>Congratulations</h1>
